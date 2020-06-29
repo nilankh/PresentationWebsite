@@ -3,7 +3,7 @@
     --page-2-color: #12041641;
     --page-3-color: steelblue;
     --page-4-color: rgb(132, 180, 70);
-    --animate-speed: 1s;
+    --animate-speed: 2s;
 }
 
 body {
@@ -79,4 +79,11 @@ body {
 #page-1 h1 {
     transform: translateY(-1200px);
     animation: heading var(--animate-speed) forwards ease-in;
+  }
+
+  /* Keyframes */
+@keyframes heading {
+    to {
+      transform: translateY(0);
+    }
   }
