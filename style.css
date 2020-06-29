@@ -1,6 +1,16 @@
 :root {
-    --page-1-color: steelblue;
-    --page-2-color: steelblue;
+    --page-1-color: pink;
+    --page-2-color: red;
     --page-3-color: steelblue;
-    --page-4-color: steelblue;
+    --page-4-color: rgb(132, 180, 70);
+    --animate-speed: 1s;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
