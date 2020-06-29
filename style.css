@@ -1,6 +1,6 @@
 :root {
     --page-1-color: pink;
-    --page-2-color: red;
+    --page-2-color: #12041641;
     --page-3-color: steelblue;
     --page-4-color: rgb(132, 180, 70);
     --animate-speed: 1s;
@@ -13,4 +13,18 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+/* Page colors */
+#page-1 {
+    background: var(--page-1-color);
+}
+#page-2 {
+    background: var(--page-2-color);
+}
+#page-3 {
+    background: var(--page-3-color);
+}
+#page-4 {
+    background: var(--page-4-color);
 }
