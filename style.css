@@ -40,3 +40,14 @@ body {
 
     
   }
+
+  .page h1 {
+      font-size: 4rem;
+      line-height: 1.2;
+      margin: 1rem;
+      color: black;
+  }
+  .page p {
+      font-size: 1.3rem;
+      color: coral;
+  }
