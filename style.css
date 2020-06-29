@@ -3,7 +3,7 @@
     --page-2-color: #12041641;
     --page-3-color: steelblue;
     --page-4-color: rgb(132, 180, 70);
-    --animate-speed: 2s;
+    --animate-speed: 0.9s;
 }
 
 body {
